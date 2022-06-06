@@ -1,0 +1,68 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+p {
+    margin: 0;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1.75fr 0.30fr 0.27fr 0.5fr 0.27fr  0.30fr 1.75fr;
+    grid-template-rows: 6vh;
+    gap: 0px 0px;
+}
+
+.Eq1Logo, .Eq1Puntuacion, .Eq2Puntuacion, .Eq2Logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Eq1, .Eq2 {
+    font-size: 1.1em;
+}
+
+.Eq1Puntuacion, .Eq2Puntuacion {
+    color: #fff;
+    font-size: 2em;
+}
+
+.Eq1 {
+    color: #c4a371;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-image: linear-gradient(to left, #292824 , transparent);
+    letter-spacing: -0.3px;
+}
+
+/* 292824  36342e*/
+.Eq1Logo, .Eq2Logo {
+    background-color: #292824;
+}
+
+.Eq1Puntuacion {
+    background-color: #615938;
+}
+
+.Eq2Puntuacion {
+    background-color: #344e62;
+}
+
+.Eq2 {
+    color: #5ba0c5;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: linear-gradient(to right, #292824 , transparent);
+    letter-spacing: 1px;
+}

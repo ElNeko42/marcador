@@ -1,0 +1,48 @@
+body {
+    width: 100%;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#contenedor {
+    display: grid;
+    grid-template-columns: 2fr .80fr .55fr .55fr .5fr;
+    background-color: #9e8140;
+    padding: .55em 0;
+}
+
+p {
+    margin: 0;
+}
+
+#adrJugador, #kJugador, #aJugador, #dJugador {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 3.5em;
+} 
+
+#kJugador {
+    padding-right: .40em;
+}
+
+#aJugador {
+    padding-right: .70em;
+}
+
+#dJugador {
+    padding-right: .70em;
+}
+
+#nombreJugador {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+#nombreJugador p {
+    color: white;
+    font-size: 3em;
+    padding-left: .2em;
+    letter-spacing: 2px;
+}

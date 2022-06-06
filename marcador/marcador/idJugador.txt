@@ -1,0 +1,2 @@
+SELECT jugadores.aka, estadisticas_jugador.k, estadisticas_jugador.d, estadisticas_jugador.a, estadisticas_jugador.adr, jugadores.id_equipo FROM estadisticas_jugador LEFT JOIN jugadores ON estadisticas_jugador.id_jugador = jugadores.id_jugador
+WHERE estadisticas_jugador.id_jugador = 15
