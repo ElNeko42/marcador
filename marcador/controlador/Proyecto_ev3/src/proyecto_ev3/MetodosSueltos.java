@@ -9,11 +9,6 @@ import java.util.Date;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *  Clase metodosSueltos
- * 
- *  @author angel
- */
 public class MetodosSueltos {
     
     /**
