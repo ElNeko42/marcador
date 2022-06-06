@@ -1,10 +1,6 @@
 package proyecto_ev3;
 
-/**
- *  Inicia la aplicacion
- * 
- *  @author angel
- */
+
 public class Proyecto_ev3 {
 
     /**
