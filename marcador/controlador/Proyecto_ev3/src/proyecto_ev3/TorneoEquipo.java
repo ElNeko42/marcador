@@ -4,11 +4,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-/**
- *  Clase TorneoEquipo
- * 
- *  @author angel
- */
+
 public class TorneoEquipo extends ConnDB {
     
     // Atributos
